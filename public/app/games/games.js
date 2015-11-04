@@ -37,5 +37,4 @@ angular.module('Games', ['ngResource'])
       var d = [gameDate.getMonth()+1,gameDate.getDate(), gameDate.getFullYear()];
       return d.join('/');
     }
-
   }]);
